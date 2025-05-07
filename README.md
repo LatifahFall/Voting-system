@@ -50,7 +50,7 @@
 2. Import the MySQL database using the provided `sql_queries.txt`.
 3. Configure database credentials in `connect.php`.
 4. Place the project in your web server directory (e.g., `htdocs` for XAMPP).
-5. Start Apache and MySQL, then navigate to `localhost/GestionConcours` in your browser.
+5. Start Apache and MySQL, then navigate to `localhost/Voting-system` in your browser.
 
 ## 📌 Notes
 
