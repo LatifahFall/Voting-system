@@ -1,0 +1,38 @@
+CREATE DATABASE IF NOT EXISTS concours;
+
+USE concours;
+
+CREATE TABLE IF NOT EXISTS etud3a (
+    nom VARCHAR(50),
+    prenom VARCHAR(50),
+    email VARCHAR(100),
+    naissance DATE,
+    diplome ENUM('Bac+2', 'Bac+3'),
+    niveau ENUM('3ème année', '4ème année'),
+    etablissement VARCHAR(100),
+    photo VARCHAR(255),
+    cv VARCHAR(255),
+    log VARCHAR(50),
+    mdp VARCHAR(50),
+    token VARCHAR(32),
+);
+
+CREATE TABLE IF NOT EXISTS etud4a (
+    nom VARCHAR(50),
+    prenom VARCHAR(50),
+    email VARCHAR(100),
+    naissance DATE,
+    diplome ENUM('Bac+2', 'Bac+3'),
+    niveau ENUM('3ème année', '4ème année'),
+    etablissement VARCHAR(100),
+    photo VARCHAR(255),
+    cv VARCHAR(255),
+    log VARCHAR(50),
+    mdp VARCHAR(50),
+    token VARCHAR(32),
+);
+
+CREATE TABLE IF NOT EXISTS admins (
+    email VARCHAR(100);
+    mdp VARCHAR(100);
+);
